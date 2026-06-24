@@ -1618,7 +1618,8 @@ section {
     .form select:focus:-ms-input-placeholder,
     .form textarea:focus:-ms-input-placeholder {
       opacity: 0; }
-  .form input {
+  .form input,
+  .form textarea {
     margin-bottom: 25px; }
 
 .sticker {
@@ -2635,7 +2636,8 @@ section {
         width: 320px; }
   .form {
     padding: 45px 30px 35px; }
-    .form input {
+    .form input,
+    .form textarea {
       margin-bottom: 20px; }
   .info__wrap {
     padding-left: 35px;
