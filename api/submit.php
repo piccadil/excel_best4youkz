@@ -2,8 +2,8 @@
 declare(strict_types=1);
 
 /**
- * Form submission handler for best4you.kz static site.
- * Copy config.example.php to config.php and set SMTP credentials before deploy.
+ * Form submission handler for excel.best4you.kz.
+ * Config: api/config.php (git). Password: api/secrets.php on server or SMTP_PASS env.
  */
 
 header('Content-Type: application/json; charset=utf-8');

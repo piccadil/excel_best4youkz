@@ -2,9 +2,9 @@
 DirectoryIndex index.html
 Options -Indexes
 
-<Files "config.php">
+<FilesMatch "^(config|secrets)\.php$">
     Require all denied
-</Files>
+</FilesMatch>
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
