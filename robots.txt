@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://excel.best4you.kz/sitemap.xml
